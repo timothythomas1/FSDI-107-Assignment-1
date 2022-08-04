@@ -8,7 +8,8 @@ const Product = () => {
   return (
     <div className="product-container">
         <img className="product-img" src="https://picsum.photos/600/600" alt="A random image" />
-        <h3>Title Goes Here</h3>
+        <h4 className="product-heading"> Product heading goes here</h4>
+        <h4>$1,000,000.99</h4>
         <QuantityPicker />
     </div>
   )
